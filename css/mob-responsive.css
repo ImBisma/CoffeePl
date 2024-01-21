@@ -1,0 +1,131 @@
+/* Media query for mobile phones */
+
+@media only screen and (max-width: 600px) {
+    .preloader h1{
+        font-size: 3rem;
+        line-height: 10vh;
+    }
+    .navbar{
+        padding: 15px 15px;
+    }
+    .logo img {
+        max-width: 60px;
+        min-width: 50px;
+    
+        height: auto;
+    }
+    
+     .section-2 {
+        width: 100vw;
+        height: fit-content;
+        padding: 20px 0px;
+        
+    }
+    .contant h2 {
+        
+        font-size: 4rem !important;
+        
+    
+    }
+    .contant-3-sub .col {
+        display: block;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .contant-3 .col .btn {
+        display: block;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .section-3 {
+        width: 100vw;
+        height: fit-content;
+        
+       
+    }
+    .container .row{
+        flex-direction: column !important;
+    }
+    .container .col{
+        margin: 20px 0px;
+    }
+    .contant-3 .banner-img {
+        width: 100%;
+        display: block;
+        margin: auto;
+    
+    }
+    .contant-3 .col h3 {
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+     
+     }
+     .contant-3 .col h6 {
+        font-size: 1.3rem;
+        margin: 1.4rem 0;
+        text-align: center;
+        
+     
+     }
+     .contant-3-sub {
+        width: 100vw;
+        height: fit-content;
+        
+        
+    }
+     .section-4 {
+        width: 100vw;
+        height: fit-content;
+        
+        
+    }
+    footer {
+        width: 100vw;
+        
+        
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .hamburger {
+        font-size: 35px;
+        color: #D9D9D9;
+    }
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+       
+        
+        
+    }
+
+    .navbar-links.show {
+        display: flex;
+        ;
+    }
+
+    .nav-link {
+        padding: 25px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        border-bottom: 1px solid #555;
+        letter-spacing: 2px;
+        z-index: 1001
+    }
+    
+}
+
