@@ -168,7 +168,7 @@ img {
 /* section-1 start  */
 .section-1 {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   position: absolute;
   z-index: 99;
   top: -5%;
@@ -233,6 +233,7 @@ img {
   flex-direction: column;
   justify-content: center;
   background-image: linear-gradient(to top, transparent, transparent, #bfac9b);
+  padding: 40px 0px;
 }
 
 .contant-2 .headings {
@@ -274,6 +275,11 @@ img {
 .btn-group .btn:hover {
   background-color: rgba(38, 15, 1, 1);
   color: #bfac9b;
+}
+
+.active{
+  background-color: rgba(38, 15, 1, 1) !important;
+  color: #bfac9b !important;
 }
 
 .display-machines {

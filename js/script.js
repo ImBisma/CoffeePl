@@ -42,18 +42,30 @@ beansBtn.addEventListener("click", function () {
   beans.style.display = "inline";
   machines.style.display = "none";
   accosories.style.display = "none";
+  accosoriesBtn.classList.remove('active');
+  machinesBtn.classList.remove('active');
+  beansBtn.classList.add('active');
+  console.log(beansBtn)
 });
 
 machinesBtn.addEventListener("click", function () {
   beans.style.display = "none";
   machines.style.display = "inline";
   accosories.style.display = "none";
+  accosoriesBtn.classList.remove('active');
+  beansBtn.classList.remove('active');
+  machinesBtn.classList.add('active');
+  console.log(machinesBtn)
 });
 
 accosoriesBtn.addEventListener("click", function () {
   beans.style.display = "none";
   machines.style.display = "none";
   accosories.style.display = "inline";
+  accosoriesBtn.classList.add('active');
+  beansBtn.classList.remove('active');
+  machinesBtn.classList.remove('active');
+  console.log(accosoriesBtn)
 });
 
 
